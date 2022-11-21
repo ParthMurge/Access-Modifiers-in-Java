@@ -35,12 +35,12 @@ public class Packages {
 
     public static void main(String[] args) {
 
-        /* Modifiers	Class	Package	  Sub-class	  World
+        /*  	  Modifiers	  Class		     Package	     Sub-class	       	      World
 		   
-		   Public		  Y			Y		 Y			Y
-		   Protected	  Y			Y		 Y			N
-		   Default		  Y			Y		 N			N
-		   Private		  Y    		N		 N			N		 */
+		   Public	    Y			Y		 Y			Y
+		   Protected	    Y			Y		 Y			N
+		   Default	    Y			Y		 N			N
+		   Private	    Y    		N		 N			N		 */
 
         A a = new A();
         a.methA();
