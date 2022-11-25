@@ -21,7 +21,7 @@ public class Packages_02 {
     public static void main(String[] args) {
 
         /* -class 'Packages' & class 'Packages_02' are both in different packages.
-           -I've imported Packages.class here in this code.
+           -I've imported 'Packages.class' here in this code.
            -And I've made an object of that class.
            -If I try and access the properties/methods of 'Packages' here in 'Packages_02',
             I can access only Public properties/methods of 'Packages'.
@@ -30,7 +30,7 @@ public class Packages_02 {
          */
 
         Packages a2 = new Packages();
-        System.out.println("\nAccessing the properties from Java world i.e. form another package:");
+        System.out.println("\nAccessing the properties from Java world i.e. from another package:");
         System.out.println("Public = " + a2.x); // x is Public
     //  System.out.println(a2.y); // y is Protected
     //  System.out.println(a2.z); // z is Default
